@@ -20,100 +20,59 @@
     />
   </head>
   <body>
-    <header>
-      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        
-        <form class="form-inline my-2 my-lg-0 mx-4">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-        <div class="collapse navbar-collapse linkss" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+    <div class="overall">
+      <header>
+        <div class="nav-container" data-scroll>
+          <nav class="navbars">
+            <a href="#" class="navbar-brands">
+              <img src="/images/ItserveLogo.png" alt="company logo" />
+            </a>
+            <ul class="nav-links">
+              <input type="checkbox" id="checkbox_toggle" />
+
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+              <div class="menu">
+                <li><a href="/" class="hover-links">Service</a></li>
+                <li>
+                  <a href="/Pages/Service.html" class="hover-links">Product</a>
+                </li>
+                <li>
+                  <a href="/Pages/Product.html" class="hover-links">Company</a>
+                </li>
+                <li class="contact">
+                  <a href="/Pages/Contact.html">Contact</a>
+                </li>
               </div>
-            </li>
-          </ul>
+            </ul>
+          </nav>
         </div>
-      </nav> -->
-      <nav class="navbar">
-      <div class="brand-title"><a href="#"><img class="company-logo" src="/images/groupedlogo.png"/></a></div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+      </header>
+      <main class="hero-section">
+        <div class="">
+          <div class="hero-section-text">
+            <h2>
+              We Provide Client Centric
+              <span class="technology">Technology Solutions.</span>
+            </h2>
+            <p>
+              Solving clients complex tech related and business problems through
+              re-inventing of their technology.
+            </p>
+            <button class="get-started">Get Started</button>
+          </div>
+          <div class="logo-section">
+            <p>Trusted by most renowned company</p>
+            <div class="logos">
+              <img src="images/lirs.png" width="146.69" height="46.82" />
+              <img src="images/luc.png" width="121.82" height="49.07" />
+              <img src="images/lasepa.png" width="213.07" height="49.07" />
+            </div>
+          </div>
         </div>
+      </main>
 
-      </nav>
-    </header>
-    <main class="hero-section">
-      <div class="hero-section-text">
-        <h2>We Provide Client Centric Technology Solutions</h2>
-        <p>
-          Solving clients complex tech related and business problems through
-          re-inventing of their technology.
-        </p>
-        <button class="get-started">Get Started</button>
-      </div>
-      <div class="logo-section">
-        <img src="images/lirs.png" width="146.69" height="46.82" />
-        <img src="images/luc.png" width="121.82" height="49.07" />
-        <img src="images/lasepa.png" width="213.07" height="49.07" />
-      </div>
-    </main>
-
-    <!-- <div class="the-solution">
+      <!-- <div class="the-solution">
       <p><b>Providing advanced solutions</b></p>
       <p><b>and support services</b></p>
       <p>We provide high quality, value added solutions and</p>
@@ -132,258 +91,337 @@
         will rendered are as follows:
       </p>
     </div> -->
-    <section class="solution-sect">
-      <div class="about-sect">
-        <h4>About Itserve</h4>
-        <div class="providing-thinking">
-          <div class="providing">
-            <h2>Providing advanced solutions and support services</h2>
-            <p>
-              We provide high quality, value added solutions and management
-              support services to both government and non-government
-              institutions. Professionals providing services in the areas of:
-            </p>
-            <div class="checkbox-container">
-              <div class="single-checkbox">
-                <img class="checkbox-image" src="/images/checkbox.png" />
-                <p>Strategy & Consulting</p>
+      <section class="solution-sect">
+        <div class="solution-sect-container">
+          <div class="about-sect">
+            <h4 class="about-text">About Itserve</h4>
+            <div class="providing-thinking">
+              <div class="providing">
+                <h2>Providing advanced solutions and support services</h2>
+                <p>
+                  We provide high quality, value added solutions and management
+                  support services to both government and non-government
+                  institutions. Professionals providing services in the areas
+                  of:
+                </p>
+                <div class="checkbox-container">
+                  <div class="single-checkbox">
+                    <img class="checkbox-image" src="/images/checkbox.png" />
+                    <p>Strategy & Consulting</p>
+                  </div>
+                  <div class="single-checkbox">
+                    <img class="checkbox-image" src="/images/checkbox.png" />
+                    <p>Financial Services</p>
+                  </div>
+                  <div class="single-checkbox">
+                    <img class="checkbox-image" src="/images/checkbox.png" />
+                    <p>Human Capital Management</p>
+                  </div>
+                  <div class="single-checkbox">
+                    <img class="checkbox-image" src="/images/checkbox.png" />
+                    <p>Process Management & Technology</p>
+                  </div>
+                  <div class="single-checkbox">
+                    <img class="checkbox-image" src="/images/checkbox.png" />
+                    <p>Business Transformation & Advisory</p>
+                  </div>
+                </div>
               </div>
-              <div class="single-checkbox">
-                <img class="checkbox-image" src="/images/checkbox.png" />
-                <p>Financial Services</p>
-              </div>
-              <div class="single-checkbox">
-                <img class="checkbox-image" src="/images/checkbox.png" />
-                <p>Human Capital Management</p>
-              </div>
-              <div class="single-checkbox">
-                <img class="checkbox-image" src="/images/checkbox.png" />
-                <p>Process Management & Technology</p>
-              </div>
-              <div class="single-checkbox">
-                <img class="checkbox-image" src="/images/checkbox.png" />
-                <p>Business Transformation & Advisory</p>
+              <div class="thinking">
+                <img class="thinking-image" src="/images/thinking.png" />
               </div>
             </div>
           </div>
-          <div class="thinking">
-            <img class="thinking-image" src="/images/thinking.png" />
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
           </div>
-          <!--For the image-->
+          <div class="services-sect">
+            <div class="services-explore">
+              <h5>Explore Our Services & Products</h5>
+              <p>
+                We provide high quality, effective and efficient management
+                support services to our clients, our skilled and talented
+                professionals are will deliver the best services. The services
+                will rendered are as follows:
+              </p>
+            </div>
+
+            <div class="services-cards">
+              <div class="service-card">
+                <img src="/images/process 1.png" class="service-image" />
+                <h5>Business Transformation</h5>
+                <p>
+                  We help clients to adopt new technologies and processes to
+                  improve the delivery of service.
+                </p>
+              </div>
+
+              <div class="service-card">
+                <img src="/images/human-capital 1.png" class="service-image" />
+                <h5>Human Capital</h5>
+                <p>
+                  We help clients to build the skills and capabilities to
+                  effectively leverage technology and achieve business goals.
+                </p>
+              </div>
+
+              <div class="service-card">
+                <img
+                  src="/images/project-management 1.png"
+                  class="service-image"
+                />
+                <h5>IT Consulting</h5>
+                <p>
+                  We help clients to adopt new technologies and processes to
+                  improve the delivery of service.
+                </p>
+              </div>
+
+              <div class="service-card">
+                <img
+                  src="/images/online-counseling 1.png"
+                  class="service-image"
+                />
+                <h5>Advisory Service</h5>
+                <p>
+                  We provide strategic guidance and support to organisations and
+                  bring experience to help clients achieve their goals.
+                </p>
+              </div>
+
+              <div class="service-card">
+                <img src="/images/audit 1.png" class="service-image" />
+                <h5>Audit & Assurance</h5>
+                <p>
+                  We help clients identify and address potential tech-related
+                  risks and provide protecting their systems and datas.
+                </p>
+              </div>
+
+              <div class="service-card">
+                <img src="/images/rocket 1.png" class="service-image" />
+                <h5>PPP</h5>
+                <p>
+                  We deliver high quality, effective, and sustainable service to
+                  our clients through innovation and creativity.
+                </p>
+              </div>
+            </div>
+            <div class="services-button-container">
+              <button class="service-button">Explore More</button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div class="services-sect">
-        <div class="services-explore">
-          <h5>Explore Our Services & Products</h5>
+      </section>
+      <section class="our-blog">
+        <div class="text-our-blog">
+          <h4>Our Blog</h4>
           <p>
-            We provide high quality, effective and efficient management support
-            services to our clients, our skilled and talented professionals are
-            will deliver the best services. The services will rendered are as
-            follows:
+            We have partnered with businesses on the same mission as ours to
+            help local businesses. We have also added resources you need to
+            start, run and grow your business
           </p>
         </div>
-
-        <div class="services-cards">
-          <div class="service-card">
-            <img src="/images/process 1.png" class="service-image" />
-            <h5>Business Transformation</h5>
-            <p>
-              We help clients to adopt new technologies and processes to improve
-              the delivery of service.
-            </p>
+        <div class="pictures-our-blog">
+          <div class="picture-picture">
+            <img src="/images/Mask group.png" class="image-our-blog" />
+            <div class="picture-picture-text">
+              <h5>Public awareness on LAG-ID</h5>
+              <p>
+                ITSERVE organized a program to enlightened people on how LAG-ID
+                can benefit them.
+              </p>
+            </div>
           </div>
 
-          <div class="service-card">
-            <img src="/images/human-capital 1.png" class="service-image" />
-            <h5>Human Capital</h5>
-            <p>
-              We help clients to build the skills and capabilities to
-              effectively leverage technology and achieve business goals.
-            </p>
+          <div class="picture-picture">
+            <img src="/images/Mask group (1).png" class="image-our-blog" />
+            <div class="picture-picture-text">
+              <h5>Adoption of requisite technology</h5>
+              <p>
+                ITSERVE organized a program to enlightened people on how LAG-ID
+                can benefit them.
+              </p>
+            </div>
           </div>
 
-          <div class="service-card">
-            <img src="/images/project-management 1.png" class="service-image" />
-            <h5>IT Consulting</h5>
-            <p>
-              We help clients to adopt new technologies and processes to improve
-              the delivery of service.
-            </p>
+          <div class="picture-picture">
+            <img src="/images/Mask group (2).png" class="image-our-blog" />
+            <div class="picture-picture-text">
+              <h5>Adoption of requisite technology</h5>
+              <p>
+                ITSERVE organized a program to enlightened people on how LAG-ID
+                can benefit them.
+              </p>
+            </div>
           </div>
 
-          <div class="service-card">
-            <img src="/images/online-counseling 1.png" class="service-image" />
-            <h5>Advisory Service</h5>
-            <p>
-              We provide strategic guidance and support to organisations and
-              bring experience to help clients achieve their goals.
-            </p>
+          <div class="picture-picture">
+            <img src="/images/Mask group (3).png" class="image-our-blog" />
+            <div class="picture-picture-text">
+              <h5>Adoption of requisite technology</h5>
+              <p>
+                ITSERVE organized a program to enlightened people on how LAG-ID
+                can benefit them.
+              </p>
+            </div>
           </div>
 
-          <div class="service-card">
-            <img src="/images/audit 1.png" class="service-image" />
-            <h5>Audit & Assurance</h5>
-            <p>
-              We help clients identify and address potential tech-related risks
-              and provide protecting their systems and datas.
-            </p>
+          <div class="picture-picture">
+            <img src="/images/Mask group (4).png" class="image-our-blog" />
+            <div class="picture-picture-text">
+              <h5>Adoption of requisite technology</h5>
+              <p>
+                ITSERVE organized a program to enlightened people on how LAG-ID
+                can benefit them.
+              </p>
+            </div>
           </div>
 
-          <div class="service-card">
-            <img src="/images/rocket 1.png" class="service-image" />
-            <h5>PPP</h5>
+          <div class="picture-picture">
+            <img src="/images/Mask group (5).png" class="image-our-blog" />
+            <div class="picture-picture-text">
+              <h5>Adoption of requisite technology</h5>
+              <p>
+                ITSERVE organized a program to enlightened people on how LAG-ID
+                can benefit them.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clients"></div>
+      </section>
+     
+      <section class="client-section">
+        <h3>What Our Clients Say</h3>
+        <div class="client-card-section">
+          <div class="client-single-card">
+            <div class="client-single-card-header">
+              <img src="/images/Avatar.png" class="avatar" />
+              <div class="client-id">
+                <h6>Cameron Williamson</h6>
+                <p>CEO, Tech Company</p>
+              </div>
+              <img src="/images/quote.png" class="quotes-img" />
+            </div>
             <p>
-              We deliver high quality, effective, and sustainable service to our
-              clients through innovation and creativity.
+              “thank you for realizing the idea and highly recommend it for
+              those of you who want to create a system”.
+            </p>
+          </div>
+          <div class="client-single-card">
+            <div class="client-single-card-header">
+              <img src="/images/Avatar.png" class="avatar" />
+              <div class="client-id">
+                <h6>Cameron Williamson</h6>
+                <p>CEO, Tech Company</p>
+              </div>
+              <img src="/images/quote.png" class="quotes-img" />
+            </div>
+            <p>
+              “Investment is quite important in this era, and because of you I
+              was able to create a corporate system for my own investment”
+            </p>
+          </div>
+          <div class="client-single-card">
+            <div class="client-single-card-header">
+              <img src="/images/Avatar.png" class="avatar" />
+              <div class="client-id">
+                <h6>Cameron Williamson</h6>
+                <p>CEO, Tech Company</p>
+              </div>
+              <img src="/images/quote.png" class="quotes-img" />
+            </div>
+            <p>
+              “Investment is quite important in this era, and because of you I
+              was able to create a corporate system for my own investment”
             </p>
           </div>
         </div>
-        <div class="services-button-container">
-          <button class="service-button">Explore More</button>
-        </div>
-      </div>
-    </section>
-    <section class="our-blog">
-      <div class="text-our-blog">
-        <h4>Our Blog</h4>
-        <p>We have partnered with businesses on the same mission as ours to help local businesses. We have also added resources you need to start, run and grow your business</p>  
-      </div>
-      <div class="pictures-our-blog">
-        <div class="picture-picture">
-          <img src="/images/Mask group.png" class="image-our-blog">
-          <h5>Public awareness on LAG-ID</h5>
-          <p>ITSERVE organized a program to enlightened people on how LAG-ID can benefit them.</p>
-        </div>
+      </section>
+      <section class="outro">
+        <section class="end">
+          <figure>
+            <a href="">
+              <img src="/images/groupedlogo.png" alt="companys logo" />
+            </a>
+            <figcaption>
+              Solving clients complex tech related and business problems through
+              re-inventing of their technology.
+            </figcaption>
+          </figure>
+          <div class="navs">
+            <nav class="nav-links2">
+              <ul>
+                <li>
+                  <a href="./index.html" target="_self"> Home</a>
+                </li>
+                <li>
+                  <a href="./Pages/Service.html" target="_self">Service</a>
+                </li>
+                <li>
+                  <a href="./Pages/Product.html" target="_self">Product</a>
+                </li>
+                <li>
+                  <a href="./Pages/Contact.html" target="_self">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
 
-        <div class="picture-picture">
-          <img src="/images/Mask group (1).png" class="image-our-blog">
-          <h5>Adoption of requisite technology.</h5>
-          <p>ITSERVE organized a program to enlightened people on how LAG-ID can benefit them.</p>
-        </div>
-
-        <div class="picture-picture">
-          <img src="/images/Mask group (2).png" class="image-our-blog">
-          <h5>Adoption of requisite technology.</h5>
-          <p>ITSERVE organized a program to enlightened people on how LAG-ID can benefit them.</p>
-        </div>
-
-        <div class="picture-picture">
-          <img src="/images/Mask group (3).png" class="image-our-blog">
-          <h5>Adoption of requisite technology.</h5>
-          <p>ITSERVE organized a program to enlightened people on how LAG-ID can benefit them.</p>
-        </div>
-
-        <div class="picture-picture">
-          <img src="/images/Mask group (4).png" class="image-our-blog">
-          <h5>Adoption of requisite technology.</h5>
-          <p>ITSERVE organized a program to enlightened people on how LAG-ID can benefit them.</p>
-        </div>
-
-        <div class="picture-picture">
-          <img src="/images/Mask group (5).png" class="image-our-blog">
-          <h5>Adoption of requisite technology.</h5>
-          <p>ITSERVE organized a program to enlightened people on how LAG-ID can benefit them.</p>
-        </div>
-      </div>
-      <div class="clients">
-
-      </div>
-    </section>
-
-
-
-    <section class="outro">
-      <section class="container end">
-        <figure>
-          <a href="">
-            <img src="/images/groupedlogo.png" alt="companys logo" />
-          </a>
-          <figcaption>
-           Solving clients complex tech related and business problems through re-inventing of their technology.
-          </figcaption>
-        </figure>
-        <div class="navs">
-          <nav class="nav-links2">
-            <ul>
-              <li>
-                <a href="./index.html" target="_self"> Home</a>
-              </li>
-              <li>
-                <a href="./Pages/Service.html" target="_self">Service</a>
-              </li>
-              <li>
-                <a href="./Pages/Product.html" target="_self">Product</a>
-              </li>
-              <li>
-                <a href="./Pages/Contact.html" target="_self">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
-
-          <nav class="nav-links2">
-            <ul>
-              <li>
-                <a href="" target="_self"> About Us</a>
-              </li>
-              <li>
-                <a href="" target="_self">Blog</a>
-              </li>
-              <li>
-                <a href="" target="_self">Newsletter</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <address class="emails">
-          <address class="mail">
-            <span id="mail">E-mail</span><br />
-            <a class="mails" href="mailto:info@alphabetallp.com"
-              >info@itserve.com</a
-            >
+            <nav class="nav-links2">
+              <ul>
+                <li>
+                  <a href="" target="_self"> About Us</a>
+                </li>
+                <li>
+                  <a href="" target="_self">Blog</a>
+                </li>
+                <li>
+                  <a href="" target="_self">Newsletter</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <address class="emails">
+            <address class="mail">
+              <span id="mail">E-mail</span><br />
+              <a class="mails" href="mailto:info@alphabetallp.com"
+                >info@itserve.com</a
+              >
+            </address>
+            <br />
+            <br />
+            <address class="number">
+              <span id="number">Contact Number</span><br />
+              <a class="numbers" href="tel:+234(0)7034030255"
+                >+234(0)7034030255,</a
+              >
+              <a class="numbers" href="tel:+234(0)8035762331"
+                ><br />+234(0)8035762331</a
+              >
+            </address>
           </address>
-          <br />
-          <br />
-          <address class="number">
-            <span id="number">Contact Number</span><br />
-            <a class="numbers" href="tel:+234(0)7034030255"
-              >+234(0)7034030255,</a
-            >
-            <a class="numbers" href="tel:+234(0)8035762331"
-              ><br />+234(0)8035762331</a
-            >
+          <address class="location">
+            <span id="location">Head-Quarters</span><br />3rd floor, Nigerian
+            Institution <br />of surveyors, assbiffi road, <br />Alausa, Ikeja,
+            Lagos State.
           </address>
-        </address>
-        <address class="location">
-          <span id="location">Head-Quarters</span><br />3rd floor, Nigerian Institution
-          <br />of surveyors, assbiffi road, <br />Alausa, Ikeja, Lagos State.
-        </address>
+        </section>
       </section>
       <footer class="copyright">
         <hr />
         <!-- <br /> -->
         <span class="copyright">
-          &copy;2023 ITServe. All Rights Reserved. | Privacy
-          Policy | Terms of Use
+          &copy;2023 ITServe. All Rights Reserved. | Privacy Policy | Terms of
+          Use
         </span>
         <!-- <br /> -->
         <hr />
       </footer>
-    </section>
-
-
-
-
-
-
-
-
-
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
